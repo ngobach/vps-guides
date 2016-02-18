@@ -77,7 +77,7 @@ esac
 exit 0
 ```
 
-File need chmod **excecutable** first :)
+File need chmod **executable** first :)
 
 ```
 chmod +x /etc/init.d/vncserver
