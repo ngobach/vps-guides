@@ -1,2 +1,3 @@
 # vps-guides
-VPS Guides
+Just guides
+contact: [thanbaiks@gmail.com](mailto:thanbaiks@gmail.com)
