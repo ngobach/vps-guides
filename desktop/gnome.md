@@ -6,7 +6,11 @@ Install  packages
 ```shell
 sudo apt-get install ubuntu-desktop gnome-panel gnome-settings-daemon metacity nautilus gnome-terminal
 ```
+* VNC Server
 
+```shell
+sudo apt-get install tightvncserver
+```
 
 Modify ~/.vnc/xstartup
 -------
