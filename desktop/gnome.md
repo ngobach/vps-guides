@@ -4,13 +4,9 @@ Install  packages
 * Gnome desktop
 
 ```shell
-sudo apt-get install ubuntu-desktop gnome-panel gnome-settings-daemon metacity nautilus gnome-terminal
+sudo apt-get install ubuntu-desktop gnome-panel gnome-settings-daemon metacity nautilus gnome-terminalsudo autocutsel tightvncserver
 ```
-* VNC Server
 
-```shell
-sudo apt-get install tightvncserver
-```
 
 Modify ~/.vnc/xstartup
 -------
@@ -28,7 +24,7 @@ unset DBUS_SESSION_BUS_ADDRESS
 [ -r $HOME/.Xresources ] && xrdb $HOME/.Xresources
 xsetroot -solid grey
 vncconfig -iconic &
-
+autocutsel -fork &
 gnome-panel &
 gnome-settings-daemon &
 metacity &
