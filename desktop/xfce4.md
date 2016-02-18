@@ -4,7 +4,7 @@ Install  packages
 * XFCE4 Desktop
 
 ```shell
-sudo apt-get install xfce4 xfce4-goodies
+sudo apt-get install xfce4 xfce4-goodies autocutsel tightvncserver
 ```
 
 Modify ~/.vnc/xstartup
